@@ -69,7 +69,7 @@ class EmailLog(db.Model):
 
 def send_simple_message(to, subject, newUser):
     
-    email_body = f"Nome: William Kermer Romualdo\nProntuário: PT3032191\nNovo usuário cadastrado: {newUser}"
+    email_body = f"Nome: Ryan Müller dos Santos\nProntuário: PT3032248\nNovo usuário cadastrado: {newUser}"
 
     full_subject = app.config['FLASKY_MAIL_SUBJECT_PREFIX'] + ' ' + subject
     
